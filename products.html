@@ -7,7 +7,33 @@
     <title>Homepage</title>
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 </head>
-
+<style>
+   
+    .card{
+        /* padding: 1.5px 0.5px 0.5px; */
+        text-align: center;
+        border-radius: 2px;
+        /* width: 250px; 
+        margin: 10px; */
+       
+    }
+    .card:hover{
+        /* padding: 1.5px 0.5px 0.5px; */
+        text-align: center;
+        border-radius: 2px;
+        box-shadow: 0 5px 10px rgba(0,0,2);
+    }
+    .card-title{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .btn-primary{
+       border-radius: 20px;
+       padding: 5px 10px;
+       
+    }
+    
+</style>
 <body>
     <!-- header -->
     <nav class="navbar navbar-expand-lg bg-success p-2 text-white shadow">
@@ -23,11 +49,23 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="./about.html">About</a>
+                    </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            About 
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Our Company</a></li>
+                            <li><a class="dropdown-item" href="#">Working Process</a></li>
+                            <li><a class="dropdown-item" href="#">Gallery</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./products.html">Products</a>
+                        
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -47,8 +85,124 @@
             </div>
         </div>
     </nav>
+   
+     <img src="./img/products/product-background.jpeg" height="300px" width="100%" /> <br><br>
 
-    <h2>hello</h2>
+       <!-- cards -->
+        <div class="container">
+            <div class="row gy-3 ">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./img/products/vegetable/vegetable-1.jpeg" class="card-img-top" alt="img">
+                        <div class="card-body">
+                          <!-- <h5 class="card-title">Card title</h5> -->
+                          <h6 class="card-title">SREEMAA BLUESTER BRINJAL SEEDS</h6>
+                          <p class="card-text"><del>Rs. 210.00</del></br> Rs. 129.00</p>
+                          <a href="#" class="btn btn-primary"> Add To Cart </a>
+                         
+                        </div>
+                      </div>
+                </div>  
+
+                <div class="col-md-3">
+                    <div class="card" >
+                        <img src="./img/products/vegetable/vegetable-1.jpeg" class="card-img-top" alt="img">
+                        <div class="card-body">
+                          <!-- <h5 class="card-title">Card title</h5> -->
+                          <h6 class="card-title">SREEMAA BLUESTER BRINJAL SEEDS</h6>
+                          <p class="card-text"><del>Rs. 210.00</del></br> Rs. 129.00</p>
+                          <a href="#" class="btn btn-primary"> Add To Cart </a>
+                          <!-- <a href="#" class="btn btn-secondary"> Buy Now </a> -->
+                        </div>
+                      </div>
+                </div>  
+
+                <div class="col-md-3">
+                    <div class="card" >
+                        <img src="./img/products/vegetable/vegetable-1.jpeg" class="card-img-top" alt="img">
+                        <div class="card-body">
+                          <!-- <h5 class="card-title">Card title</h5> -->
+                          <h6 class="card-title">SREEMAA BLUESTER BRINJAL SEEDS</h6>
+                          <p class="card-text"><del>Rs. 210.00</del></br> Rs. 129.00</p>
+                          <a href="#" class="btn btn-primary"> Add To Cart </a>
+                        </div>
+                      </div>
+                </div>  
+
+                <div class="col-md-3">
+                    <div class="card" >
+                        <img src="./img/products/vegetable/vegetable-1.jpeg" class="card-img-top" alt="img">
+                        <div class="card-body">
+                          <!-- <h5 class="card-title">Card title</h5> -->
+                          <h6 class="card-title">SREEMAA BLUESTER BRINJAL SEEDS</h6>
+                          <p class="card-text"><del>Rs. 210.00</del></br> Rs. 129.00</p>
+                          <a href="#" class="btn btn-primary"> Add To Cart </a>
+                        </div>
+                      </div>
+                </div>  
+
+                <div class="col-md-3">
+                    <div class="card" >
+                        <img src="./img/products/vegetable/vegetable-1.jpeg" class="card-img-top" alt="img">
+                        <div class="card-body">
+                          <!-- <h5 class="card-title">Card title</h5> -->
+                          <h6 class="card-title">SREEMAA BLUESTER BRINJAL SEEDS</h6>
+                          <p class="card-text"><del>Rs. 210.00</del></br> Rs. 129.00</p>
+                          <a href="#" class="btn btn-primary"> Add To Cart </a>
+                        </div>
+                      </div>
+                </div>  
+
+                <div class="col-md-3">
+                    <div class="card" >
+                        <img src="./img/products/vegetable/vegetable-1.jpeg" class="card-img-top" alt="img">
+                        <div class="card-body">
+                          <!-- <h5 class="card-title">Card title</h5> -->
+                          <h6 class="card-title">SREEMAA BLUESTER BRINJAL SEEDS</h6>
+                          <p class="card-text"><del>Rs. 210.00</del></br> Rs. 129.00</p>
+                          <a href="#" class="btn btn-primary"> Add To Cart </a>
+                        </div>
+                      </div>
+                </div>  
+
+                <div class="col-md-3">
+                    <div class="card" >
+                        <img src="./img/products/vegetable/vegetable-1.jpeg" class="card-img-top" alt="img">
+                        <div class="card-body">
+                          <!-- <h5 class="card-title">Card title</h5> -->
+                          <h6 class="card-title">SREEMAA BLUESTER BRINJAL SEEDS</h6>
+                          <p class="card-text"><del>Rs. 210.00</del></br> Rs. 129.00</p>
+                          <a href="#" class="btn btn-primary"> Add To Cart </a>
+                        </div>
+                      </div>
+                </div>  
+
+                <div class="col-md-3">
+                    <div class="card" >
+                        <img src="./img/products/vegetable/vegetable-1.jpeg" class="card-img-top" alt="img">
+                        <div class="card-body">
+                          <!-- <h5 class="card-title">Card title</h5> -->
+                          <h6 class="card-title">SREEMAA BLUESTER BRINJAL SEEDS</h6>
+                          <p class="card-text"><del>Rs. 210.00</del></br> Rs. 129.00</p>
+                          <a href="#" class="btn btn-primary"> Add To Cart </a>
+                        </div>
+                      </div>
+                </div>  
+                
+                <div class="col-md-3">
+                    <div class="card" >
+                        <img src="./img/products/vegetable/vegetable-1.jpeg" class="card-img-top" alt="img">
+                        <div class="card-body">
+                          <!-- <h5 class="card-title">Card title</h5> -->
+                          <h6 class="card-title">SREEMAA BLUESTER BRINJAL SEEDS</h6>
+                          <p class="card-text"><del>Rs. 210.00</del></br> Rs. 129.00</p>
+                          <a href="#" class="btn btn-primary"> Add To Cart </a>
+                        </div>
+                      </div>
+                </div>  
+            </div>
+        </div><br>
+    
 
     <footer class="fixed-position">
         <footer class="text-center text-lg-start text-dark" style="background-color: #ECEFF1">
